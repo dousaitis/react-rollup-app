@@ -1,0 +1,26 @@
+{
+  "name": "react-rollup-app",
+  "version": "1.0.0",
+  "description": "A react app bundled with rollup.js",
+  "main": "src/index.js",
+  "scripts": {
+    "build:dev": "rollup -c rollup.config.dev.js -w"
+  },
+  "author": "John Dusaitis",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "@babel/preset-react": "^7.12.7",
+    "@rollup/plugin-babel": "^5.2.1",
+    "@rollup/plugin-commonjs": "^16.0.0",
+    "@rollup/plugin-node-resolve": "^10.0.0",
+    "@rollup/plugin-replace": "^2.3.4",
+    "babel": "^6.23.0",
+    "rollup": "^2.33.3",
+    "rollup-plugin-livereload": "^2.0.0",
+    "rollup-plugin-serve": "^1.1.0"
+  }
+}
